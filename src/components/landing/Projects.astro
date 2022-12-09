@@ -1,0 +1,26 @@
+---
+import { projects } from "../../config/projects.json";
+---
+
+{
+  projects.map((project) => (
+    <div class="flex flex-col md:flex-row text-center md:text-left mb-2">
+      <div class="flex-1 p-4">
+        <h2 class="font-bold text-2xl my-4">Farm Land 1</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta, eos.
+          Repellat magnam maiores maxime in voluptate neque, ipsum modi sint
+          recusandae ducimus explicabo. Perspiciatis aut dolor quaerat soluta
+          tempore ullam! Lorem ipsum dolor sit amet consectetur adipisicing
+          elit. Unde corporis eaque soluta commodi doloremque dolores ratione
+          perspiciatis nobis, fugiat quis temporibus officia qui, voluptatibus
+          voluptatem harum? A corporis animi debitis!
+        </p>
+        <button>Buy Now</button>
+      </div>
+      <div class="flex-1">
+        <img src="images/fingerprint.svg" class="w-72 m-auto" />
+      </div>
+    </div>
+  ))
+}

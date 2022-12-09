@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Encrypted",
+    "description": "Your data is encrypted and stored in a secure database"
+  },
+  {
+    "title": "Open Source",
+    "description": "The code is open source and available for everyone to see"
+  },
+  {
+    "title": "Free",
+    "description": "The service is free and will always be free"
+  },
+  {
+    "title": "Fast",
+    "description": "The service is fast and will always be fast"
+  },
+  {
+    "title": "Secure",
+    "description": "Your data is secure and will always be secure"
+  },
+  {
+    "title": "Cross Platform",
+    "description": "The service is available on all platforms"
+  }
+]

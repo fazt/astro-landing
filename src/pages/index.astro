@@ -1,0 +1,29 @@
+---
+import About from "../components/landing/About.astro";
+import Features from "../components/landing/Features.astro";
+import Hero from "../components/landing/Hero.astro";
+import More from "../components/landing/More.astro";
+import Projects from "../components/landing/Projects.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Managed Farmland">
+  <main>
+    <Hero />
+    <More />
+    <Features />
+    <About />
+    <Projects />
+  </main>
+</Layout>
+
+<style>
+  :global(h1) {
+    margin: 2rem 0;
+  }
+
+  main {
+    max-width: 1440px;
+    margin: auto;
+  }
+</style>
